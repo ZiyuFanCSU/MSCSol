@@ -67,7 +67,6 @@ MSCSol
 └── environment.yml             # Dependent Package Version
 ``` 
 
-All the models can be downloaded here: https://zenodo.org/records/10996294.
 
 ## Model
 The model mainly includes four parts: (a) Molecular 3D feature representation based on GVP-GNN; (b) Using ResNeXt50 with Selective Kernel Convolution combining Global and Local attention mechanisms to encode molecular images. (c) The calculation of molecular descriptors. (d) Concat the features obtained from the first three parts and input them into the fully connected layers for solubility prediction.
